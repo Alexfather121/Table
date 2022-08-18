@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Table</title>
+</head>
+
+<body>
+<h3>Table</h3><hr />
+<!-- Начало сценария -->
+<table border="2">
+
+<script type="text/javascript">
+let i = prompt("enter a number of columns", 20);
+let j = prompt("enter a number of lines", 30);
+
+let txt = prompt("enter a text to fill a table cells", "Hi my friend!")
+
+for(let u = 0; u < j; u++){
+document.write("<tr>");
+for(let k = 0; k < i; k++){
+document.write("<td>"+txt+"</td>");
+}
+document.write("</tr>");
+}
+
+</script>
+</table>
+<!-- Завершение сценария -->
+
+</body>
+</html>
